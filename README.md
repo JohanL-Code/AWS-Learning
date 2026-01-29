@@ -70,3 +70,7 @@ Este repositorio se actualiza constantemente con apuntes, resúmenes y ejemplos 
 
 ## 🚀 Próximo Paso
 Realizar simulacros de examen y reforzar los temas de **seguridad** y **costos**.
+
+## 👤 Author
+**Johan Lopez**
+AWS Cloud Practitioner
