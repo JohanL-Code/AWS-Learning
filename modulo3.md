@@ -15,3 +15,27 @@ Lambda es un servicio de computacion sin servidor, el cual gestiona toda la infr
 **Escala aumaticamente en funcion a las cargas**
 
 ### 🚀**Contenedores y orquestacion en AWS**
+
+**Contenedores**
+Los contenedores, es una forma eficaz de empaquetar y ejecutar aplicaciones de forma coherente en mutiples entornos, con la flexibilidad necesaria para poder escalar y desplegarlos de manera eficiente en AWS.
+
+**Caracterisiticas:**
+- Empaquetan todo lo que la aplicacion necesita para ejecutarse
+- Crea un entorno uniforme
+- Permite desplegar y escalar la aplicacion en cualquier lugar
+
+**Orquestacion:**
+Administran el ciclo de los contenedores, esto se basa en, inciarlos, detenerlos y ejecutarlos en un cluster. En AWS hay dos opciones para orquestar contenedores:
+
+**Amazon Elastic Container Service (ECS)**
+Es un servicio escalable de orquestacion de contenedores para ejecutar y administrar contenedores en AWS, como los contenedores Docker. Docker es un software para crear, probar y desplegar aplicaciones rapidamente.
+
+-  Amazon ECS con Amazon EC2: Ideal para pequeñas empresas que quieren un control total de la infraestructura.
+-  Amazon ECS con Fargate EC2: Ideal para empresas emergentes, es una opcion sin servidor, por lo que ECS se ocupa del escalado y orquestacion.
+
+**Amazon Elastic Kubernets (EKS)**
+Servicio ecompletamente administrado para ejecutar Kubernetes en AWS, reduce el despliegue, la administracion y el escalado de aplicaciones en contenedores mediante Kubernetes de codigo abierto.
+
+### 🚀**Servicios de computación adicionales**
+
+
